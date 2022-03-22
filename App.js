@@ -1,14 +1,19 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import MusicPlayer from './screens/MusicPlayer'
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
+    <View style={styles.container}>
+      <MusicPlayer/>
     </View>
   )
 }
 
 export default App
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container:{
+    flex:1
+  }
+})

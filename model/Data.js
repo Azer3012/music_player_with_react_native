@@ -12,18 +12,11 @@ const songs = [
         id: 2,
         title:'some song',
         artist:'2 Artist',
-        artwork:require('../assets/img/img1.jpg'),
-        url:'https://firebasestorage.googleapis.com/v0/b/spotif',
+        artwork:require('../assets/img/img2.jpg'),
+        url:'https://firebasestorage.googleapis.com/v0/b/music-7b2dd.appspot.com/o/mp3indirdur-La-Casa-De-Papel-Bella-Ciao.mp3?alt=media&token=eb6ae7b9-c613-4fcd-be93-00d375575aac',
 
     },
-    {
-        id: 3,
-        title:'some song',
-        artist:'3 Artist',
-        artwork:require('../assets/img/img1.jpg'),
-        url:'https://firebasestorage.googleapis.com/v0/b/spotif',
-
-    },
+   
 ];
 
 export default songs;
